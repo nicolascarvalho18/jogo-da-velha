@@ -1,0 +1,33 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(6, 80px);
+    grid-template-rows: repeat(6, 80px);
+    grid-gap: 5px;
+    
+
+  }
+  
+  .board div {
+    width: 80px;
+    height: 80px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+  
+  .setup {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: brown;
+    
+  }
